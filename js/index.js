@@ -1,12 +1,4 @@
-const btn = document.querySelector(".btn-menu");
-const MdBarContainer = document.querySelector(".md-bar");
-const bd = document.querySelector("body");
 
-btn.onclick = () => {
-   btn.classList.toggle("btn-active")
-   MdBarContainer.classList.toggle("md-bar-op")
-   bd.classList.toggle("nb-m-h")
-}
 
 
 $('.banner-box').slick({
@@ -50,3 +42,4 @@ GalleryBtns.forEach(btn => {
       });
    });
 });
+
